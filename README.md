@@ -20,6 +20,14 @@ If the previous command failed (✘)
 
 ![Screenshot](https://raw.githubusercontent.com/ariporad/zsh-theme/master/screenshot.png)
 
+---
+## Installation 
+
+# Oh-My-ZSH:
+
+    curl TODO
+
+
 ## Future Work
 
 I don't want to clutter it up too much, but I am toying with the idea of nvm (node.js version) display.
