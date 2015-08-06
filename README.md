@@ -12,7 +12,6 @@ For Mac users, I highly reccomend [iTerm 2](https://www.iterm2.com/).
 If the previous command failed (✘)
 - User @ Hostname (if user is not DEFAULT_USER, which can then be set in your profile)
 - Git status
-  - Detached head (➦)
   - Current branch / SHA1 in detached head state
   - Dirty working directory (color change)
 - Working directory
