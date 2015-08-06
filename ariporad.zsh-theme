@@ -109,7 +109,7 @@ prompt_prompt() {
 }
 
 ## Main prompt
-prompt_agnoster_main() {
+prompt_ariporad_main() {
   RETVAL=$?
   prompt_status
   prompt_context
@@ -119,18 +119,18 @@ prompt_agnoster_main() {
   prompt_end
 }
 
-prompt_agnoster_precmd() {
+prompt_ariporad_precmd() {
   vcs_info
-  PROMPT='%{%f%b%k%}$(prompt_agnoster_main) '
+  PROMPT='%{%f%b%k%}$(prompt_ariporad_main) '
 }
 
-prompt_agnoster_setup() {
+prompt_ariporad_setup() {
   autoload -Uz add-zsh-hook
   autoload -Uz vcs_info
 
   prompt_opts=(cr subst percent)
 
-  add-zsh-hook precmd prompt_agnoster_precmd
+  add-zsh-hook precmd prompt_ariporad_precmd
 
   zstyle ':vcs_info:*' enable git
   zstyle ':vcs_info:*' check-for-changes false
@@ -138,4 +138,4 @@ prompt_agnoster_setup() {
   zstyle ':vcs_info:git*' actionformats '%b (%a)'
 }
 
-prompt_agnoster_setup "$@"
+prompt_ariporad_setup "$@"
