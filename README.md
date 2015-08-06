@@ -18,7 +18,7 @@ If the previous command failed (✘)
 - Elevated (root) privileges (⚡)
 - Background tasks are running (⚙)
 
-![Screenshot](https://gist.githubusercontent.com/agnoster/3712874/raw/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/ariporad/zsh-theme/master/screenshot.png)
 
 ## Future Work
 
