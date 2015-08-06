@@ -44,6 +44,7 @@ prompt_end() {
   print -n ${${:-$PROMPT_BUFFER}[1,-2]}
   print -n "%{%k%}"
   print -n "%{%f%}"
+  print -n "%{%b%}"
 }
 
 ### Prompt components
