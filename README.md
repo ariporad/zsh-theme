@@ -23,16 +23,7 @@ If the previous command failed (✘)
 ---
 ## Installation 
 
-### Oh-My-ZSH:
-
-    curl -L http://git.io/vOQsq | sh
-
-(That just clones this repo to $ZSH_CUSTOM/ariporad-theme, symlinks the theme to $ZSH_CUSTOM/ariporad.zsh-theme,
-and appends `ZSH_THEME="ariporad` to your.zshrc. You can totaly install it yourself if you want).
-
-### Other-ZSH:
-
-Copy ariporad.zsh-theme to wherever it needs to go.
+Put ariporad.zsh-theme wherever your sytem puts .zsh-themes.
 
 
 ## Future Work
