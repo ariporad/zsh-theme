@@ -25,7 +25,7 @@ If the previous command failed (✘)
 
 ### Oh-My-ZSH:
 
-    curl http://git.io/vOQsq | sh
+    curl -L http://git.io/vOQsq | sh
 
 (That just clones this repo to $ZSH_CUSTOM/ariporad-theme, symlinks the theme to $ZSH_CUSTOM/ariporad.zsh-theme,
 and appends `ZSH_THEME="ariporad` to your.zshrc. You can totaly install it yourself if you want).
