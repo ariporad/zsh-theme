@@ -20,7 +20,10 @@ If the previous command failed (✘)
 
 ![Screenshot](https://raw.githubusercontent.com/ariporad/zsh-theme/master/screenshot.png)
 
----
+## iTerm 2 v3
+
+For iTerm2 v3, some extra care is taken to make sure everything looks good (expecially the mark).
+
 ## Installation 
 
 Put ariporad.zsh-theme wherever your sytem puts .zsh-themes.

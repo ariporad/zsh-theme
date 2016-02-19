@@ -108,9 +108,21 @@ prompt_prompt() {
   prompt_segment default "%(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}➜%s)"
 }
 
+# Fix iTerm 2 mark
+prompt_fix_iterm2_mark() {
+  declare -f -F iterm2_set_user_var > /dev/null
+  if [[ "$?" -eq "0" ]]; then
+    printf " "
+  fi
+}
+
 ## Main prompt
 prompt_ariporad_main() {
   RETVAL=$?
+
+  # Make the iTerm 2 mark not look as weird
+  prompt_fix_iterm2_mark
+
   prompt_status
   prompt_context
   prompt_dir
